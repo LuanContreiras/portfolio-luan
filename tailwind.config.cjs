@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
-  content: ["./src/**/*.jsx"],
+  content: ['./src/**/*.jsx'],
   theme: {
     extend: {
       colors: {
@@ -16,13 +16,24 @@ module.exports = {
           100: '#f2f3f5'
         }
       },
-      borderRadius:{
-        'pf': '47% 53% 35% 65% / 44% 59% 41% 56%;',
+      borderRadius: {
+        pf: '47% 53% 35% 65% / 44% 59% 41% 56%;'
       }
     },
-    fontFamily:{
-      roboto: "Roboto"
+    fontFamily: {
+      roboto: 'Roboto'
     },
+    backgroundImage: {
+      wave1: "url('./wave1.svg')",
+      wave2: "url('./wave2.svg')",
+      wave3: "url('./wave3.svg')",
+      waveBlack1: "url('./wave-black1.svg')",
+      waveBlack2: "url('./wave-black2.svg')",
+      waveBlack3: "url('./wave-black3.svg')"
+    },
+    aspectRatio: {
+      '900/300': '900 / 300'
+    }
   },
-  plugins: [],
+  plugins: []
 }
