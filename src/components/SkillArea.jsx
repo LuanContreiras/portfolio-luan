@@ -41,6 +41,11 @@ export function SkillArea(){
         <span className='font-bold'>ReactJS</span>
       </div>
 
+      <div className="skillCard hover:text-blue-300">
+        <FaReact className='w-8 h-8 md:w-14 md:h-14' />
+        <span className='font-bold'>React Native</span>
+      </div>
+
       <div className="skillCard dark:hover:text-lime-500 hover:text-lime-600">
         <FaNodeJs className='w-8 h-8 md:w-14 md:h-14' />
         <span className='font-bold'>Node.js</span>
